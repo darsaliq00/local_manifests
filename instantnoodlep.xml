@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="ubp-op5" fetch="https://github.com/ubports-oneplus5" revision="halium-9.0" />
+
+        <!-- Linux kernel 4.4 (Android) -->
+         <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="https://github.com/Chandra-Chaganti/kernel_oneplus_sm8250.git" revision="eleven" />
+
+
+        <!-- Device configuration -->
+        <project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="https://github.com/Chandra-Chaganti/android_device_oneplus_sm8250-common.git" revision="lineage-18.1" />
+        <project path="device/oneplus/instantnoodlep" name="device_oneplus_instantnoodlep" remote="https://github.com/Chandra-Chaganti/device_oneplus_instantnoodlep.git" revision="eleven" />
+
+        <!-- Vendor blobs -->
+        <project path="vendor/oneplus/instantnoodlep" name="vendor_oneplus_instantnoodlep" remote="https://github.com/Chandra-Chaganti/vendor_oneplus_instantnoodlep.git" revision="eleven" />
+</manifest>
+
+
+
