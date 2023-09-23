@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="ubp-op5" fetch="https://github.com/ubports-oneplus5" revision="halium-9.0" />
-
+         <remote name="darsaliq00" fetch="https://github.com/darsaliq00" revision="halium-11.0" />
         <!-- Linux kernel 4.4 (Android) -->
          <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="https://github.com/Chandra-Chaganti/kernel_oneplus_sm8250.git" revision="eleven" />
 
